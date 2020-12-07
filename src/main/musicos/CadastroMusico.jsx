@@ -72,7 +72,7 @@ class CadastroMusico extends Component {
     const response = await registrarMusico(carroData);
     
     if (!response.ok) {
-      alert("Erro no cadastro do compositor");
+      alert("Erro no cadastro do músico");
       return;
     }
     alert("Cadastro realizado com sucesso!");
@@ -80,8 +80,8 @@ class CadastroMusico extends Component {
     //const textResponse = await response.text();
 
     } catch (error) {
-      console.log("Erro no cadastro de compositores", error);
-      alert("Erro no cadastro do compositor");
+      console.log("Erro no cadastro de músicos", error);
+      alert("Erro no cadastro do músico");
     } finally {
       this.setState({loading: false});
     }
