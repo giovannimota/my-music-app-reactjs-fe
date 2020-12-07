@@ -1,11 +1,11 @@
 import React from 'react';
 import './Root.css';
-import HomeMusica from './main/HomeMusic';
+import HomeMusic from './main/HomeMusic';
 
 const App = (props) => {
   return (
     <>
-      <HomeMusica/>
+      <HomeMusic/>
     </>
   );
 }

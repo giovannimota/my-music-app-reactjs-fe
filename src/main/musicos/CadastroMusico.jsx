@@ -105,8 +105,8 @@ class CadastroMusico extends Component {
         </div>
       </div>
       <div className="buttons-area">
-        <Button className="button" variant="contained" color="primary" onClick={this.handleSubmitButtonClick}> Cadastrar </Button>
-        <Button className="button" variant="contained" onClick={this.handleClearButtonClick}> Limpar </Button>
+        <Button className="button" variant="outlined" color="primary" onClick={this.handleSubmitButtonClick}> Cadastrar </Button>
+        <Button className="button" variant="outlined" color="secondary" onClick={this.handleClearButtonClick}> Limpar </Button>
       </div>
       <Backdrop className="backdrop" open={loading} >
         <CircularProgress color="inherit" />

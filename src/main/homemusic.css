@@ -1,3 +1,12 @@
+body{
+  background: #000;
+  color: white;
+}
+.nomePagina{
+  background: #004e79;
+  font-size: 40px;
+  padding: 20px;
+}
 .loja-container {
     display: flex;
     flex-direction: column;
@@ -7,7 +16,7 @@
   
   .loja-container .topNav {
     display: flex;
-    background-color: gainsboro;
+    background-color: #004e79;
     align-items: center;
     justify-content: flex-end;
     height: 40px;
@@ -22,7 +31,7 @@
   .loja-container .leftNav {
     display: flex;
     flex-direction: column;
-    background-color: gainsboro;
+    background-color: #004e79;
     padding: 16px;
     width: 240px;
   }
@@ -30,7 +39,7 @@
   .loja-container .leftNav .link {
     padding: 8px;
     text-decoration: none;
-    color: black;
+    color: white;
   }
   
   .loja-container .leftNav .topic {
@@ -38,12 +47,24 @@
     padding-top: 16px;
     padding: 24px 8px 8px 4px; 
     font-weight: bold;
-    color: black;
+    color: white;
     font-size: larger;
   }
   
   .loja-container .content {
+    color: black;
     display: flex;
+    background: #fff;
     width: 100%;
     padding: 16px;
   }
+  footer {
+    display: block;
+    margin: 4px;
+    padding: 5px;
+    min-height: 100px;
+    border: 1px solid #000000;
+    border-radius: 5pt;
+    background: #212121;
+    color: white;
+}

@@ -12,13 +12,12 @@ class HomeMusic extends Component {
   render() {
     return (
       <div>
-          <h1>Musica</h1>
+        <div className="conteudoPagina">
+          <h1 className="nomePagina">Compositores e Músicos</h1>
           <div className="loja-container">
-            <div className="topNav">
-                Giovanni Mota
-            </div>
             <div className="bottom">
                 <div className="leftNav">
+                   
                     <Link className="link" to="/">Home</Link>
                     <div className="topic">Compositores</div>
                     <Link className="link" to="/compositores/cadastro">Cadastro</Link>
@@ -39,6 +38,12 @@ class HomeMusic extends Component {
                 </div>
             </div>
           </div>
+        </div>
+        <footer>
+          <h3>Desenvolvido por Giovanni R. Mota</h3>
+          <h3>giovanni.mota01@gmail.com</h3>
+          <h3>2020</h3>
+        </footer>
       </div>
     );
   }
