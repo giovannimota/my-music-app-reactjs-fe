@@ -1,11 +1,11 @@
-import React, { Component } from 'react';
-import { Link, Switch, Route, Redirect } from 'react-router-dom';
-import Home from './Home';
-import CadastroCompositor from './compositores/CadastroCompositor';
-import BuscaCompositor from './compositores/BuscaCompositor';
-import CadastroMusico from './musicos/CadastroMusico';
-import BuscaMusico from './musicos/BuscaMusico';
-import './homemusic.css';
+import React, { Component } from "react";
+import { Link, Switch, Route, Redirect } from "react-router-dom";
+import Home from "./Home";
+import CadastroCompositor from "./compositores/CadastroCompositor";
+import BuscaCompositor from "./compositores/BuscaCompositor";
+import CadastroMusico from "./musicos/CadastroMusico";
+import BuscaMusico from "./musicos/BuscaMusico";
+import "./homemusic.css";
 
 class HomeMusic extends Component {
 
@@ -17,7 +17,6 @@ class HomeMusic extends Component {
           <div className="loja-container">
             <div className="bottom">
                 <div className="leftNav">
-                   
                     <Link className="link" to="/">Home</Link>
                     <div className="topic">Compositores</div>
                     <Link className="link" to="/compositores/cadastro">Cadastro</Link>
@@ -40,9 +39,9 @@ class HomeMusic extends Component {
           </div>
         </div>
         <footer>
-          <h3>Desenvolvido por Giovanni R. Mota</h3>
-          <h3>giovanni.mota01@gmail.com</h3>
-          <h3>2020</h3>
+          <h3>Desenvolvido por {this.props.nome}</h3>
+          <h3>{this.props.meuEmail}</h3>
+          <h3>{this.props.ano}</h3>
         </footer>
       </div>
     );

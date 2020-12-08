@@ -1,7 +1,7 @@
-import React, { Component } from 'react';
-import { Button, TextField, Backdrop, CircularProgress } from '@material-ui/core';
-import { registrarMusico } from '../apis/musico';
-import './cadastro.css';
+import React, { Component } from "react";
+import { Button, TextField, Backdrop, CircularProgress } from "@material-ui/core";
+import { registrarMusico } from "../apis/musico";
+import "./cadastro.css";
 
 class CadastroMusico extends Component {
 
